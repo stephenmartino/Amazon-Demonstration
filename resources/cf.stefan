@@ -13,8 +13,8 @@
     },
 
    "NewRelicLicenseKey" : {
-     "Description" : "New Relic 40-digit License Key Standard",
-     "Default" : "afd262e0b31f276cb8dc2ca047fcb1174107ef1b",
+     "Description" : "New Relic 40-digit License Key",
+     "Default" : "a07c47adbd81980f702b1a9b42b5638d6fd81334",
      "Type" : "String",
      "MinLength" : "40",
      "MaxLength" : "40",
@@ -23,7 +23,7 @@
 
    "CodeFolder" : {
      "Description" : "Folder Name for Application Code",
-     "Default" : "HUIT-Cloud",
+     "Default" : "NewRelic",
      "Type" : "String",
      "MinLength" : "1",
      "MaxLength" : "40"
@@ -31,7 +31,7 @@
 
    "CodeEnvironment" : {
      "Description" : "Environment Name for Application Code",
-     "Default" : "Standard Monitoring",
+     "Default" : "Environment",
      "Type" : "String",
      "MinLength" : "1",
      "MaxLength" : "40"
@@ -84,6 +84,7 @@
 
     "SitePassword": {
       "NoEcho": "true",
+      "Default": "huitadmin",
       "Description" : "The Drupal site admin account password",
       "Type": "String",
       "MinLength": "1",
@@ -115,6 +116,7 @@
 
     "DBPassword": {
       "NoEcho": "true",
+      "Default": "huitadmin",
       "Description" : "The Drupal database admin account password",
       "Type": "String",
       "MinLength": "8",
